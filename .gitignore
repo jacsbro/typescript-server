@@ -1,0 +1,14 @@
+# IDE
+/.idea
+
+# dependencies
+/node_modules
+
+# production
+/build
+
+# artifacts
+npm-debug.log
+.nyc
+.env
+.DS_Store

@@ -4,7 +4,7 @@ import { greet } from './greet'
 http
   .createServer((req, res: http.ServerResponse) => {
     res.writeHead(200, { 'Content-Type': 'text/plain' })
-    res.write(greet('Bobae'))
+    res.write(greet('Albert'))
     res.end()
   })
   .listen(8080)
